@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Clients - Full Stack Test</title>
+    <link href="/css/framework/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row p-5">
+            <div class="col col-lg-12">
+                <h5 class="text-center">List of client infromation</h5>
+                <a class="btn btn-success" href="/add-client.html">Add new client</a> <a class="btn btn-dark" href="https://localhost:44302/export/downloadcsv">Export</a>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Ttle</th>
+                                <th>Full Name</th>
+                                <th>Date of birth</th>
+                                <th>Cell Number</th>
+                                <th>Email address</th>
+                                <th colspan="2">Street number</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbl_clientinfo">
+                            <tr>
+                                <td colspan="7">
+                                    <p id="txt_data">No data found</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/framework/jquery-3.6.0.min.js"></script>
+    <script src="/scripts/pages/index.js"></script>
+</body>
+</html>
