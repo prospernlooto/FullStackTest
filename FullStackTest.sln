@@ -9,11 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLayer", "Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{365E5CEC-CE2B-4273-AD81-0B79C2F19CC4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{BAD22CC3-9226-4ECA-B293-B00595A76834}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Documents\script.sql = ..\..\..\Documents\script.sql
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{0050397A-6FA3-4658-A891-BA21D4C5A5C8}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
